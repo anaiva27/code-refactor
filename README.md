@@ -26,19 +26,19 @@ The website is deployed in live URL, loads with no errors, every link is working
 Below, we've provided a screenshot of the page and link to access it. 
 
 Screenshot
-(/assets/images/screencapture.png)
+![Landing page screenshot](assets/images/screencapture.png)
 
 ## Links
 
-[Horiseon Marketing Agency - Homepage] (https://anaiva27.github.io/code-refactor/)
+[Horiseon Marketing Agency - Homepage](https://anaiva27.github.io/code-refactor/) <br>
 [GitHub repository](https://github.com/anaiva27/code-refactor)
 
 
 ## Credits
 
 Helpful articles about accessability, used for this task:
-Accessability (https://www.w3.org/standards/webdesign/accessibility)
-Accessibility Inspector (https://developer.mozilla.org/en-US/docs/Tools/Accessibility_inspector)
+[Accessability] (https://www.w3.org/standards/webdesign/accessibility) <br>
+[Accessibility-inspector] (https://developer.mozilla.org/en-US/docs/Tools/Accessibility_inspector)
 
 
 
