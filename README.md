@@ -22,8 +22,8 @@ To achieve desired accessibility of the website and improve its positioning in s
 The title of the page was changed from "Website" to "Horiseon. Marketing agency - home page" so the visitors could understand right away, what kind of website are we interracting with.
 To make sure that the structure of the page responds to the accessibility requirements, semantic tags were substituted for certain non-semantic ones. Now, a person, who is accessing your website using a screen reader will hear the descriptive title of the page first, next will be the header with the navigation links. Then there's a background picture with an alternative caption to describe it, followed by the main section, containing a few more captioned pictures and information about the services. All headings were also properly organized and positioned throughout the page. You can find more details in the comments inside the index page.
 
-The website is deployed in live URL, loads with no errors, every link is working correctly. We also revised and commented the styling sheet, giving it a proper semantic structure and decreasing the size of the document as well.
-Below, we've provided a screenshot of the page and link to access it. 
+The website is deployed at live URL, loads without errors, every link is working correctly. We also revised and commented the styling sheet, giving it a proper semantic structure and decreasing the size of the document as well.
+Below, we've provided the screenshot of the page and link to access it. 
 
 Screenshot
 ![Landing page screenshot](assets/images/screencapture.png)
