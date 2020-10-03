@@ -1,3 +1,4 @@
+/* Sets the margin and text padding to 0 for all elements, the background extends behind the border */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +9,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Background, text color, padding and font for the header elements */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,6 +17,7 @@ header {
     color: #ffffff;
 }
 
+/* Sets the size of the text in the first heading, next elements are in the same line */
 header h1 {
     display: inline-block;
     font-size: 48px;
@@ -24,6 +27,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Style and size of the text inside the container. Position of the container inside the header */
 header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,16 +36,14 @@ header div {
     font-size: 20px;
 }
 
-/* .header div ul {
-    list-style-type: none;
-} */
-
+/* The navigation elements in the header will be positioned horizontally. List has no markers */
 header div ul li {
     list-style-type: none;
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Color and decoration style for the links */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -51,6 +53,7 @@ p {
     font-size: 16px;
 }
 
+/* Size, position and path for the cover picture */
 .background {
     height: 800px;
     width: 100%;
@@ -60,6 +63,7 @@ p {
     background-position: center;
 }
 
+/* Position of the pictures in the article section */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -70,12 +74,33 @@ p {
     margin-left: 25px;
 }
 
+/* Position and style for the main section containing article */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Position and style of the content, images and headings inside the article. Repeating multiple styles merged in one */
+.article-content {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.article-content img {
+    max-height: 200px;
+}
+
+.article-content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Position, font, size and background for the aside section */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -87,38 +112,17 @@ p {
     background-color: #2589bd;
 }
 
-/* Multiple class selectiors `benefit-brand` and `benefit cost` are not necessary and can be substituted with a one class selector `benefit`   */
+/* Multiple class selectiors `benefit-brand` and `benefit cost` are not necessary and can be substituted with a one class selector `benefit` */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* .benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-} */
-
-
-/* All heading and images are given the same properties under the class selector `benefit`   */
+/* All headings and images in aside section are given the same properties under the class selector `benefit`. Multiple classes were unnecessary */
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
-/* .benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-} */
 
 .benefit img {
     display: block;
@@ -126,72 +130,7 @@ p {
     max-width: 150px;
 }
 
-/* .benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-} */
-
-.article-content {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* .online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-} */
-
-/* .social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-} */
-
-.article-content img {
-    max-height: 200px;
-}
-
-/* .online-reputation-management img {
-    max-height: 200px;
-} */
-
-/* .social-media-marketing img {
-    max-height: 200px;
-} */
-
-.article-content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* .online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-} */
-
-/* .social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-} */
-
+/* Styles for the text inside the footer */
 .footer {
     padding: 30px;
     clear: both;
