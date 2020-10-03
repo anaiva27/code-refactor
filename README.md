@@ -37,8 +37,8 @@ Screenshot
 ## Credits
 
 Helpful articles about accessability, used for this task:
-[Accessability] (https://www.w3.org/standards/webdesign/accessibility) <br>
-[Accessibility-inspector] (https://developer.mozilla.org/en-US/docs/Tools/Accessibility_inspector)
+[Accessability](https://www.w3.org/standards/webdesign/accessibility) <br>
+[Accessibility inspector](https://developer.mozilla.org/en-US/docs/Tools/Accessibility_inspector)
 
 
 
